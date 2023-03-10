@@ -18,7 +18,8 @@ selector = st.sidebar.selectbox("Menú", ["Datos",
                                          "Visualización", 
                                          "Filtrado"])
 
-df = pd.read_csv("data/sevicidist.csv", index_col=0)
+df_path = os.path.abspath("data/sevicidist.csv")
+df = pd.read_csv(df_path, index_col=0)
 
 if selector == "Datos":
 
