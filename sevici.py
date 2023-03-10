@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title("Sevici App")
-st.sidebar.image("assets/img/sevici.jpg")
+st.sidebar.image("sevici.jpg")
 
 selector = st.sidebar.selectbox("Menú", ["Datos", 
                                          "Visualización", 
