@@ -12,7 +12,7 @@ st.set_page_config(
 
 st.title("Sevici App")
 
-img = Image.open("./assets/img/sevici.jpg")
+img = Image.open("assets/img/sevici.jpg")
 st.sidebar.image(img)
 
 selector = st.sidebar.selectbox("Menú", ["Datos", 
