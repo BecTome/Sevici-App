@@ -1,5 +1,4 @@
 import streamlit as st
-from src.utils import load_image
 import pandas as pd
 from PIL import Image
 import plotly.express as px
