@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
 import plotly.express as px
 
 st.set_page_config(
@@ -11,9 +10,7 @@ st.set_page_config(
 )
 
 st.title("Sevici App")
-
-img = Image.open("assets/img/sevici.jpg")
-st.sidebar.image(img)
+st.sidebar.image("assets/img/sevici.jpg")
 
 selector = st.sidebar.selectbox("Menú", ["Datos", 
                                          "Visualización", 
